@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "pages": {
+    "time.go": {
+      "runtime": "go1.x",
+      "handler": "time.go"
+    }
+  }
+}

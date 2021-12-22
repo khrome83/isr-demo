@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "routes": {
+    "/time": {
+      "initialRevalidateSeconds": 60,
+      "srcRoute": "/time",
+      "dataRoute": ""
+    }
+  },
+  "dynamicRoutes": {
+    "/time": {
+      "routeRegex": "^/time$",
+      "dataRoute": "",
+      "fallback": null,
+      "dataRouteRegex": ""
+    }
+  },
+  "preview": {
+    "previewModeId": "yes"
+  }
+}
