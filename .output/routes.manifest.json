@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "basePath": "/",
+  "pages404": false,
+  "dynamicRoutes": [
+    {
+      "page": "/",
+      "regex": "/((?!assets/).*)"
+    }
+  ]
+}

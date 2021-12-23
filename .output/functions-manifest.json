@@ -1,6 +1,9 @@
 {
   "version": 1,
   "pages": {
+    "index.js": {
+      "maxDuration": 10
+    },
     "time.go": {
       "runtime": "go1.x",
       "handler": "time.go"
