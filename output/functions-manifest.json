@@ -7,9 +7,9 @@
     "time.js": {
       "maxDuration": 10
     },
-    "timeBkup.go": {
+    "main.go": {
       "runtime": "go1.x",
-      "handler": "timeBkup.go"
+      "handler": "main.go"
     }
   }
 }
