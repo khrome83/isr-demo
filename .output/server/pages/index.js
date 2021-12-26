@@ -82,5 +82,6 @@ module.exports = (req, res) => {
 
   const time = `${h}:${m}:${s} ${a}`;
 
-  res.status(200).send(template.replace("%s", time));
+  console.log(res);
+  res.send(template.replace("%s", time));
 };
