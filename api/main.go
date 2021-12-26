@@ -75,7 +75,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
   </body>
 </html>
 `
-	currentTime := time.Now().Format("KK:mm:ss a")
+	currentTime := time.Now().Format("03:04:05 PM")
 
 	output := fmt.Sprintf(template, currentTime)
 
