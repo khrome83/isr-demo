@@ -1,0 +1,19 @@
+{
+  "name": "isr-demo",
+  "version": "1.0.0",
+  "description": "Go version using the Incremental Static Regeneration on Vercel platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Fake Build Command\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khrome83/isr-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khrome83/isr-demo/issues"
+  },
+  "homepage": "https://github.com/khrome83/isr-demo#readme"
+}
