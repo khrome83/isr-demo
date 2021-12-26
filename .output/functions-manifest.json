@@ -4,7 +4,10 @@
     "index.js": {
       "maxDuration": 10
     },
-    "time.go": {
+    "time.js": {
+      "maxDuration": 10
+    },
+    "timeBkup.go": {
       "runtime": "go1.x",
       "handler": "time.go"
     }

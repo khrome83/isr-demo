@@ -2,7 +2,7 @@
   "version": 3,
   "routes": {
     "/time": {
-      "initialRevalidateSeconds": 60,
+      "initialRevalidateSeconds": 10,
       "srcRoute": "/time",
       "dataRoute": ""
     }
