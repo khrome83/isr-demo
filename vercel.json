@@ -1,12 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "output/server/api/main.go",
-      "use": "@vercel/go",
-      "config": { "zeroConfig": true }
-    }
-  ],
+  "functions": {
+    "output/server/api/main.go": {
+      "runtime": "@vercel/go"
+    },
   "build": {
     "env": {
       "ENABLE_FILE_SYSTEM_API": "1"
