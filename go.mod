@@ -1,3 +1,3 @@
 module github.com/khrome83/isr-demo
 
-go 1.17
+go 1.11
