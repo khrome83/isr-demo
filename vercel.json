@@ -2,7 +2,8 @@
   "functions": {
     "output/server/api/main.go": {
       "runtime": "@vercel/go"
-    },
+    }
+  },
   "build": {
     "env": {
       "ENABLE_FILE_SYSTEM_API": "1"
