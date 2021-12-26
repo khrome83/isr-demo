@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   let template = `
 	<html lang="en" class="">
   <head>
@@ -83,4 +83,4 @@ export default function handler(req, res) {
   const time = `${h}:${m}:${s} ${a}`;
 
   res.status(200).send(template.replace("%s", time));
-}
+};

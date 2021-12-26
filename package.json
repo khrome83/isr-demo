@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Go version using the Incremental Static Regeneration on Vercel platform",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "echo \"Fake Build Command\""
   },
