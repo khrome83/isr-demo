@@ -1,6 +1,6 @@
 {
   "functions": {
-    "output/server/api/main.go": {
+    "api/main.go": {
       "runtime": "@vercel/go@1.2.3"
     }
   },
