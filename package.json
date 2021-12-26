@@ -4,7 +4,7 @@
   "description": "Go version using the Incremental Static Regeneration on Vercel platform",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Fake Build Command\""
+    "build": "./build.sh"
   },
   "repository": {
     "type": "git",
