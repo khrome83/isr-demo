@@ -9,7 +9,7 @@
     },
     "timeBkup.go": {
       "runtime": "go1.x",
-      "handler": "time.go"
+      "handler": "timeBkup.go"
     }
   }
 }
