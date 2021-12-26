@@ -82,6 +82,7 @@ module.exports = (req, res) => {
 
   const time = `${h}:${m}:${s} ${a}`;
 
-  console.log(res);
-  res.send(template.replace("%s", time));
+  res.statusCode = 200;
+  res.setHeader("content-type", "text/html; charset=UTF-8")
+  res.end(template.replace("%s", time));
 };
