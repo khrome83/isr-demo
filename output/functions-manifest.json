@@ -9,7 +9,7 @@
     },
     "main.go": {
       "runtime": "go1.x",
-      "handler": "main.bin"
+      "handler": "main"
     },
     "api/time.go": {
       "runtime": "go1.x",
