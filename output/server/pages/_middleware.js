@@ -33,6 +33,14 @@ _ENTRIES["middleware_pages/_middleware"] = {
       });
     }
 
+    if (request.url.endsWith("/time")) {
+      return getResult(null, {
+        headers: {
+          "x-middleware-rewrite": "/current",
+        },
+      });
+    }
+
     // Don't do anything
     return getResult(null, {
       headers: {

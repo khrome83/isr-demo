@@ -58,7 +58,7 @@ module.exports = (req, res) => {
       <div class="modal">
         <h1>Incremental Static Regen</h1>
         <div class="caption">
-          A Demo written in <strong>Go</strong> and hosted on
+          A Demo written in <strong>Node</strong> and hosted on
           <strong>Vercel</strong>
         </div>
         <div class="clock">%s</div>
@@ -83,6 +83,6 @@ module.exports = (req, res) => {
   const time = `${h}:${m}:${s} ${a}`;
 
   res.statusCode = 200;
-  res.setHeader("content-type", "text/html; charset=UTF-8")
+  res.setHeader("content-type", "text/html; charset=UTF-8");
   res.end(template.replace("%s", time));
 };
