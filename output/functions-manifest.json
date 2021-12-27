@@ -9,7 +9,20 @@
     },
     "main.go": {
       "runtime": "go1.x",
-      "handler": "main.go"
+      "handler": "main.bin"
+    },
+    "api/time.go": {
+      "runtime": "go1.x",
+      "handler": "time.bin"
+    },
+    "_middleware.js": {
+      "runtime": "web",
+      "env": [],
+      "files": ["server/pages/_middleware.js"],
+      "name": "pages/_middleware",
+      "page": "/",
+      "regexp": "^/.*$",
+      "sortingIndex": 1
     }
   }
 }

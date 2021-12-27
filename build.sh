@@ -3,5 +3,4 @@
 # amazon-linux-extras install golang1.11
 # echo "Amazon Extras Ran"
 # GOARCH=amd64 GOOS=linux go build main.go -ldflags="-s -w"
-mv api/main.go output/server/pages/main.go
 mv output .output
