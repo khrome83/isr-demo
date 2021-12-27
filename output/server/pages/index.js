@@ -3,7 +3,7 @@ module.exports = (req, res) => {
 	<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
-    <title>Incremental Static Regen</title>
+    <title>Server Side Rendering</title>
 
     <meta name="robots" content="noindex" />
 
@@ -56,7 +56,7 @@ module.exports = (req, res) => {
   <body>
     <div class="display">
       <div class="modal">
-        <h1>Incremental Static Regen</h1>
+        <h1>Server Side Rendering</h1>
         <div class="caption">
           A Demo written in <strong>Node</strong> and hosted on
           <strong>Vercel</strong>

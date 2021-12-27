@@ -50,6 +50,10 @@ module.exports = (req, res) => {
         font-family: "PT Mono", monospace;
         padding-top: 2rem;
       }
+
+      .last-rendered {
+        font-size: 1.5rem;
+      }
     </style>
   </head>
 
@@ -61,6 +65,7 @@ module.exports = (req, res) => {
           A Demo written in <strong>Node</strong> and hosted on
           <strong>Vercel</strong>
         </div>
+        <div class="last-rendered">Last Rendered</div>
         <div class="clock">%s</div>
       </div>
     </div>
