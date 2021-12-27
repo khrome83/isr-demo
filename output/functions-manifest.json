@@ -18,8 +18,8 @@
     "edge/_middleware.js": {
       "runtime": "web",
       "env": [],
-      "files": ["server/pages/edge/_middleware.js"],
-      "name": "pages/edge/_middleware",
+      "files": ["server/pages/_middleware.js"],
+      "name": "pages/_middleware",
       "page": "/edge/time",
       "regexp": "^/edge/time$",
       "sortingIndex": 1
