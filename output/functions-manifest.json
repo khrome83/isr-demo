@@ -15,13 +15,13 @@
       "runtime": "go1.x",
       "handler": "time.bin"
     },
-    "edge/_middleware.js": {
+    "_middleware.js": {
       "runtime": "web",
       "env": [],
       "files": ["server/pages/_middleware.js"],
       "name": "pages/_middleware",
-      "page": "/edge/time",
-      "regexp": "^/edge/time$",
+      "page": "/",
+      "regexp": "^/.*$",
       "sortingIndex": 1
     }
   }

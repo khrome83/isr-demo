@@ -77,7 +77,7 @@ _ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES;
 
 _ENTRIES["middleware_pages/_middleware"] = {
   default: async function ({ request }) {
-    if (request.url.endsWith("/time")) {
+    if (request.url.endsWith("/edge")) {
       let date = new Date();
 
       let h = date.getHours();
